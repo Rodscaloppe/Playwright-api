@@ -16,9 +16,9 @@ export async function APICheck({ request }) {
 export async function PostRequest({ request }) {
     const response = await request.post('https://emumba-test.herokuapp.com/user', {
         data: {
-            "first_name": "Ali",
-            "last_name": "Ahmad",
-            "email": "ali.ahmadAPItest0@gmail.com",
+            "first_name": "Rod",
+            "last_name": "machado",
+            "email": "rodtesteapi@gmail.com",
             "password": "12345",
             "confirm_password": "12345"
               }
